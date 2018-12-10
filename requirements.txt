@@ -1,0 +1,7 @@
+pymongo
+pandas
+flask_restplus
+pyyaml
+ipaddress
+tldextract
+scikit-learn
