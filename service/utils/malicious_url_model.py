@@ -79,7 +79,7 @@ class MaliciousUrlModel:
     @classmethod
     def _is_ip_address(cls, domain):
         try:
-            if ip.ip_address(unicode(domain)):
+            if ip.ip_address(unicode(domain)):  # noqa: F821
                 return 1
         except ValueError:
             return 0
@@ -238,18 +238,3 @@ class MaliciousUrlModel:
         if not isinstance(predicted_label, np.ndarray):
             return None
         return self.LABELS[predicted_label[0]]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

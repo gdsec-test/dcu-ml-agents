@@ -1,6 +1,7 @@
 import os
 import urllib
 
+
 class AppConfig(object):
     DB = 'test'
     DB_USER = 'dbuser'
@@ -42,6 +43,7 @@ class TestingConfig(AppConfig):
     TOKEN_AUTHORITY = 'test'
     DBURL = 'mongodb://localhost/devphishstory'
     DB = 'test'
+
 
 config_by_name = {'dev': DevelopmentAppConfig,
                   'prod': ProductionAppConfig,
