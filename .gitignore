@@ -105,3 +105,6 @@ venv.bak/
 
 # Intellij IDE files
 *.idea
+.direnv
+.envrc
+shell.nix
