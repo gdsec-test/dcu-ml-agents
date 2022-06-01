@@ -32,7 +32,7 @@ class OTEAppConfig(AppConfig):
 
 class DevelopmentAppConfig(AppConfig):
     DB = 'devphishstory'
-    DB_HOST = '10.36.156.188'
+    DB_HOST = '10.36.190.222'
     DB_USER = 'devuser'
 
     def __init__(self):
